@@ -1,0 +1,254 @@
+body{
+	margin: 0;
+	background-image: url("dark-blue-abstract-background-visual-trend_101125-1203.avif");
+	background-size: cover;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+h1{
+	font-size: 70px;
+}
+
+h2{
+	font-size: 50px;
+	color: white;
+}
+
+h3{
+	font-size: 37px;
+}
+
+h4{
+	font-size: 30px;
+}
+
+.clearfix{
+	clear: both;
+}
+
+/* custom tags and classes */
+
+/* div#navbar{
+	background-color: #18202b;
+} slika za navbar siva */
+
+div#navbar img{
+	float: left;
+	height: 100px;
+	margin-left: 70px;
+}
+
+div#navbar ul{
+	list-style: none;
+	float: right;
+	padding-top: 20px;
+	margin-right: 30px;
+}
+
+div#navbar li{
+	display: inline;
+	margin: 20px;
+}
+
+div#navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+	padding-bottom: 4px;
+}
+
+div#navbar ul li a:hover{
+	border-bottom: 2px solid #880808;
+}
+
+/* navbar code end */
+
+div#hero{
+	background-image: url("1_.png");
+	height: 800px;
+	width: auto;
+	background-size: contain;
+	background-repeat: no-repeat;
+	/* background-attachment: fixed; */
+	text-align: center;
+}
+
+div#hero h1{
+	margin: 0;
+	color: white;
+	padding-top: 200px;
+}
+
+/* hero code end  */
+
+div#about-us{
+	margin-top: 140px;
+	background-color: #18202b ;
+	padding: 50px 0;
+}
+
+#about-us a{
+    text-decoration: none;
+}
+
+div#about-us .left-section{
+	width: 50%;
+	float: left;
+	padding-left: 6%;
+	padding-right: 6%;
+}
+
+div#about-us .left-section p{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 22px;
+    color: whitesmoke;
+}
+
+div#about-us .left-section button{
+	font-size: 20px;
+	padding: 15px 20px;
+	background: #18202b;
+	color: white;
+	border-radius: 12px;
+	border: none;
+}
+
+div#about-us .left-section button:hover{
+	background: white;
+    color: #18202b;
+	font-size: 26px;
+	cursor: pointer;
+    border-bottom: 2px solid #880808;
+}
+
+div#about-us .right-section{
+	background-image: url("cup.jpg");
+	height: 300px;
+	width: 34%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	padding-top: 100px;
+}
+
+/* about code end  */
+
+div#products{
+	margin-top: 100px;
+	text-align: center;
+	background: #18202b;
+	padding: 40px;
+}
+
+div#products h2{
+	margin-bottom: 50px;
+}
+
+div#products .main-section div.item{
+	width: 33.33%;
+	float: left;
+
+}
+
+div#products .main-section div.item img{
+	height: 170px;
+}
+
+div#products .main-section div.item:hover{
+	transform: scale(1.7);
+	cursor: zoom-in;
+}
+
+/* products code end */
+
+#contact{
+	background: #18202b;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	padding: 30px;
+	margin-top: 80px;
+}
+
+#contact form input,
+#contact textarea{
+	width: 50%;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	border: 2px solid #18202b;
+}
+
+#contact form button{
+	padding: 15px 30px;
+	border: 2px solid #18202b;
+	background: white;
+	font-size: 20px;
+	border-radius: 5px;
+}
+
+#contact form button:hover{
+	background: #880808;
+	color: #18202b;
+	cursor: pointer;
+}
+
+.links a{
+    word-spacing: 25px;
+    text-decoration: none;
+}
+
+/* contact code end */
+
+#footer{
+	text-align: center;
+	background: #18202b;
+	color: white;
+	padding: 5px;
+	margin-top: 70px;
+}
+
+#footer .links a{
+    display: inline;
+    float: left;
+	padding-left: 10px;
+}
+
+#footer img{
+    text-align: center;
+}
+
+#footer span.red{
+    color: #880808;
+}
+
+#footer .flags{
+	float: right;
+	padding-top: 25px;
+	padding-right: 10px;
+	border: hidden;
+	text-decoration: none;
+}
+
+#footer #flag1-click{
+	height: 25px;
+	width: 40px;
+	background-image: url("Flag-M.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#footer #flag2-click{
+	height: 25px;
+	width: 40px;
+	background-image: url("Flag-E.jpeg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+/* footer code end */
+
+	

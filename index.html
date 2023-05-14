@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Fit Station</title>
+</head>
+<body>
+    
+    <div id="navbar">
+        <img src="Layer-1.png" alt="logo image" />
+        <ul>
+            <li>
+            <a href="#about-us"> About Us </a>
+            </li>
+    
+            <li>
+            <a href="#products"> Products </a>
+            </li>
+    
+            <li>
+            <a href="#contact"> Contact </a>
+            </li>
+        </ul>
+        <div class="clearfix"></div>
+    </div>
+    
+        <!-- navbar code end -->
+
+        <div id="hero">
+ 
+        </div>
+    
+        <!-- hero code end -->
+    
+     <div id="about-us">
+         <div class="left-section">
+             <h2> About our company </h2>
+             <p>
+                 We are a team of enthusiast who are passionate about helping you improve the appearance of your body. Our mission is to provide you with top-quality products that help you achieve your desired look and boost your confidence.
+
+                We understand that taking care of your body can be challenging, which is why we offer a wide range of products designed to help you look and feel your best.
+                
+                We believe that everyone deserves to feel confident and beautiful, regardless of their age, gender, or body type. That's why we are committed to providing you with affordable products that deliver real results, without compromising on quality or safety.
+                
+                Our team is always on the lookout for the latest trends and innovations in the beauty industry, so you can rest assured that you're getting the best products available on the market. We pride ourselves on our exceptional customer service and strive to exceed your expectations every time you shop with us.
+                
+                We look forward to serving you and helping you achieve your beauty goals!
+            </p>
+             <a href="https://www.instagram.com/fitstation.mk/" target="_blank"><button> Get in touch </button></a>
+         </div>
+    
+         <div class="right-section"></div>
+         <div class="clearfix"></div>
+    
+     </div>
+    
+         <!-- about code end -->
+    
+     <div id="products">
+         <h2> Our Products </h2>
+    
+         <div class="main-section">
+    
+            <div class="item">
+                 <h4> Header </h4>
+                 <img src="" alt="" />
+                 <p> Some paragraph text </p>
+             </div>
+    
+             <div class="item">
+                 <h4> Header </h4>
+                 <img src="" alt="" />
+                 <p> Some paragraph text </p>
+             </div>
+    
+             <div class="item">
+                 <h4> Header </h4>
+                 <img src="" alt="" />
+                 <p> Some paragraph text </p>
+             </div>
+    
+             <div class="item">
+                 <h4> Header </h4>
+                 <img src="" alt="" />
+                 <p> Some paragraph text </p>
+             </div>
+    
+             <div class="item">
+                 <h4> Header </h4>
+                 <img src="" alt="" />
+                 <p> Some paragraph text </p>
+             </div>
+    
+             <div class="item">
+                 <h4> Header </h4>
+                 <img src="" alt="" />
+                 <p> Some paragraph text </p>
+             </div>
+             <div class="clearfix"></div>
+        </div>
+     </div>
+    
+        <!-- products code end -->
+    
+    
+        <div id="contact">
+
+            <h2> Contact us for any enquiries </h2>
+
+            <form id="form" action="process-form.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required/>
+                <input type="email" name="email" placeholder="Enter your email" required/>
+                <input type="number" name="number" placeholder="Enter your number" />
+                <textarea name="message" placeholder="Message us"></textarea>
+                <br/>
+                <button>Contact us</button>
+            </form>
+        </div>
+    
+            <!-- contact <code></code> end -->
+    
+    
+        <div id="footer">
+           <!-- <h4> Copyright &#169 2023 Fit<span class="red">Station</span>| All Rights Reserved  </h4> -->
+           
+
+            <div class="links">
+                <a href="https://www.instagram.com/fitstation.mk/" target="_blank" >
+                    <img src="Instagram.png" alt="instagram" height="50px" width="50px"/>
+                </a>
+                <a href="https://www.facebook.com/" target="_blank" >
+                    <img src="facebook.png" alt="facebook" height="50px" width="50px"/>
+                </a>
+            </div>
+       
+
+             <a href="#navbar"><img src="Layer-1.png" alt="Logo" height="50px" /></a>
+
+        
+             
+             <div class="flags">
+                    <a href="index.html"><img src="Flag-E.jpeg" alt="English"></a>
+                    <a href="index-mk.html"><img src="Flag-M.png" alt="Macedonian"></a>
+             </div>
+         </div>
+         <footer></footer>
+          <!-- footer code end -->
+
+
+          <style>
+
+            /* Media Query for Mobile Devices */
+       @media (max-width: 480px) {
+           *{
+               text-align: center;
+           }
+
+           div#navbar{
+               height: 90px;
+
+           }
+           div#navbar img 
+           {
+               height: 50px;
+               margin-left: 30px;
+               display: inline;
+           }
+
+           div#navbar ul{
+           margin-top: auto;
+           display: inline;
+       }
+          
+           div#navbar ul li a
+           {
+               font-size: 20px;
+               margin-bottom: 5px;
+           }
+
+           div#navbar li{
+               display: inline;
+               margin: 5px;
+              padding-right: 10px;
+           }
+           div#hero{
+           background-image: url("1_.png");
+           height: 400px;
+           background-size: contain;
+           background-repeat: no-repeat;
+           /* background-attachment: fixed; */
+           margin-top: 40px;
+           
+       }
+
+               div#about-us .left-section{
+               width: auto;
+               float: left;
+               padding-left: 6%;
+               padding-right: 6%;
+           }
+
+           div#about-us .left-section p{
+               margin-top: 30px;
+               margin-bottom: 30px;
+               font-size: 22px;
+               color: whitesmoke;
+           }
+
+           div#about-us .right-section{
+           display:none;
+       }
+
+           #contact{
+            
+               width: 70%;
+               margin: auto;
+               text-align: center;
+               padding: 30px;
+               margin-top: 60px;
+           }
+
+            h2{
+               font-size: 30px;
+               color: white;
+           }
+
+               h3{
+                   font-size: 26px;
+               }
+
+               h4{
+                   font-size: 23px;
+               }
+
+               div#about-us .left-section p{
+           font-size: 17px;
+       }
+
+       }
+         
+     /* Media Query for Tablets Ipads portrait mode */
+       @media (min-width: 768px) and (max-width: 1024px){
+          
+           *{
+               text-align: center;
+           }
+
+           div#navbar{
+               height: 90px;
+
+           }
+           div#navbar img 
+           {
+               height: 70px;
+               margin-left: 20px;
+               display: inline;
+           }
+
+           div#navbar ul li a{
+               text-decoration: none;
+               color: white;
+               font-size: 20px;
+               padding-bottom: 4px;
+           }
+
+           div#hero{
+           height: 500px;
+           background-size: contain;
+           margin-top: 20px; 
+       }
+
+            #contact form input,
+                #contact form textarea{
+                font-size: 15px;
+                }
+
+           h2{
+               font-size: 45px;
+               color: white;
+           }
+
+               h3{
+                   font-size: 40px;
+               }
+
+               h4{
+                   font-size: 35px;
+               }
+
+               div#about-us .left-section p{
+           font-size: 20px;
+       }
+
+       }
+         
+            /* Media Query for Laptops and Desktops */
+            @media (min-width: 1025px) and (max-width: 1280px){
+
+               div#navbar ul li a{
+                   text-decoration: none;
+                   color: white;
+                   font-size: 30px;
+                   padding-bottom: 4px;
+               }
+
+               div#hero{
+               height: 900px;
+               background-size: cover;
+               margin-top: 20px; 
+               }
+
+               #contact form input,
+               #contact form textarea{
+               font-size: 20px;
+               }
+
+               h2{
+                   font-size: 65px;
+                   color: white;
+               }
+
+                   h3{
+                       font-size: 53px;
+                   }
+
+                   h4{
+                       font-size: 35px;
+                   }
+
+                   div#about-us .left-section p{
+               font-size: 30px;
+               }
+      }
+         
+
+                /* Media Query for Large screens */
+                @media (min-width: 1281px) {
+
+                    div#navbar ul li a{
+                        text-decoration: none;
+                        color: white;
+                        font-size: 30px;
+                        padding-bottom: 4px;
+                    }
+
+           div#hero{
+           height: 1000px;
+           background-size: cover;
+           margin-top: 20px; 
+       }
+
+       #contact form input,
+        #contact form textarea{
+           font-size: 20px;
+        }
+
+           h2{
+               font-size: 65px;
+               color: white;
+           }
+
+               h3{
+                   font-size: 53px;
+               }
+
+               h4{
+                   font-size: 35px;
+               }
+
+               div#about-us .left-section p{
+           font-size: 30px;
+       }
+     }
+
+
+         </style>
+
+</body>
+</html>
